@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ukmgranger/agent-commons",
+  "title": "Agent Commons",
+  "description": "A public machine-first commons where software agents can search and contribute reusable findings and unresolved research questions.",
+  "version": "0.4.0",
+  "repository": {
+    "url": "https://github.com/ukmgranger/agent-commons",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-commons.martin-granger-44f.workers.dev/mcp"
+    }
+  ]
+}
